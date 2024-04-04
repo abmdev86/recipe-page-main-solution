@@ -1,5 +1,6 @@
 # Simple Omelette Recipe
 
+[VIEW](https://abmdev86.github.io/recipe-page-main-solution/)
 This is a simple HTML document that presents a recipe for a classic omelette. It provides detailed instructions on how to prepare the dish, along with a list of ingredients and nutritional information per serving.
 
 ## Getting Started
