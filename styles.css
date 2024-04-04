@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: 'Outfit' ;
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Young-serif' ;
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Outfit';
+    max-width: 300px;
+    min-width: 300px;
+    margin: 0 auto;
+    
+
+}
+h1, h3 {
+    font-family: 'Young-serif';
+
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.omelette-image{
+    border-radius: .75rem;
+
+}
+.recipe-title{
+    text-align: center;
+
+}
+.description{
+    padding: 8px;
+    font-size: .85rem;
+    color: rgb(122, 118, 118);
+}
+.content{
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    border-radius: .75rem;
+    padding: 1em;
+}
+.preparation{
+    margin: 0 auto;
+    background-color: rgba(250, 189, 182, 0.205);
+    padding: 1em;
+    border-radius: .75rem;
+
+}
+.nutrition > p{
+text-align: center;
+}
+table{
+   width: 100%;
+
+}
+
+.nutrition{
+    padding: 1em;
+
+}
+table tbody tr th,
+  table tbody tr td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+  }
+  table tbody tr td:last-child {
+    padding-right: 0;
+  }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (min-width: 500px) {
+    body {
+      max-width: 1000px; /* Adjust the desired max width here */
+      
+    padding:1rem;
+
+    }
+    .omelette-image{
+        width: 100%;
+    }
+    .content{
+    max-width: 50vw;
+
+    }
+  }
+  
